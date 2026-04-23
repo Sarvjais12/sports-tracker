@@ -4,7 +4,7 @@ A robust computer vision pipeline utilizing YOLOv8m and BoT-SORT to detect and p
 
 ### 🔗 Quick Links
 * **Original Video Source:** https://www.youtube.com/watch?v=qBytWpdbTsk&t=392s
-* **Demo Walkthrough Video:** 
+* **Demo Walkthrough Video:** https://www.loom.com/share/d1db300c4d984e2bbacc141165de3885
 
 ---
 

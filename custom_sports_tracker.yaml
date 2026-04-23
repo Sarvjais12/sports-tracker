@@ -1,0 +1,10 @@
+# Custom BoT-SORT Configuration for Broadcast Sports Footage
+# Optimized for high occlusion and fast camera panning
+
+tracker_type: botsort
+track_high_thresh: 0.25      # Lowered to catch partially visible/blurry players
+track_low_thresh: 0.1        # Threshold for second-pass matching
+new_track_thresh: 0.25       # Threshold to initialize a completely new track
+track_buffer: 120            # CRITICAL: 4 seconds of memory (at 30fps) for occlusions/fast breaks
+match_thresh: 0.8            # Threshold for IoU matching
+gmc_method: sparseOptFlow    # CRITICAL: Camera Motion Compensation for broadcast panning

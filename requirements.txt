@@ -1,0 +1,14 @@
+# Multi-Object Tracking — Sports Footage
+# Python 3.8+ required
+# Install: pip install -r requirements.txt
+# For Colab: !pip install ultralytics scikit-learn matplotlib seaborn -q
+
+ultralytics>=8.0.0         # YOLOv8 + BotSORT/ByteTrack (built-in)
+opencv-python>=4.8.0       # Video I/O, drawing, color conversions
+numpy>=1.24.0              # Array operations
+scikit-learn>=1.3.0        # KMeans team clustering
+matplotlib>=3.7.0          # Count-over-time plot
+seaborn>=0.12.0            # Plot styling
+
+# Already available in Google Colab (no need to install):
+# torch, torchvision, tqdm, Pillow

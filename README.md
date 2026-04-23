@@ -4,7 +4,7 @@ A robust computer vision pipeline utilizing YOLOv8m and BoT-SORT to detect and p
 
 ### 🔗 Quick Links
 * **Original Video Source:** https://www.youtube.com/watch?v=qBytWpdbTsk&t=392s
-* **Demo Walkthrough Video:** [INSERT YOUR GOOGLE DRIVE DEMO LINK HERE]
+* **Demo Walkthrough Video:** 
 
 ---
 
@@ -27,4 +27,4 @@ A robust computer vision pipeline utilizing YOLOv8m and BoT-SORT to detect and p
 2. Set Runtime to **T4 GPU**.
 3. Upload your test video to the `/content/` directory.
 4. Run all cells sequentially. The required libraries (`ultralytics`, `scikit-learn`, `matplotlib`) will install automatically via the first cell.
-5. Download output files using the final cell (tracked video, heatmap, count plot).
+5. Download output files.
